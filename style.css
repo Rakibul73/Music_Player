@@ -299,3 +299,54 @@ body {
   width: 10vw;
   margin: 0 1vw;
 }
+
+
+
+#playlist table colgroup .column1 {
+    width: 75px;
+}
+#playlist table colgroup .column2 {
+    width: 1000px;
+}
+#playlist table colgroup .column3 {
+    width: 600px;
+}
+#playlist table colgroup .column4 {
+    width: 900px;
+}
+#playlist table colgroup .column5 {
+    width: 288px;
+}
+
+
+
+@media (max-width: 768px){
+    tr th:nth-child(4),tr td:nth-child(4){
+        display:none;
+    }
+
+    /* table colgroup col */
+    /* table colgroup col {
+        <col style="width: 207px;">
+        <col style="width: 828px;">
+        <col style="width: 500px;">
+        <col style="width: 200px;">
+        <col style="width: 0px;">
+    } */
+
+    #playlist table colgroup .column1 {
+        width: 207px;
+    }
+    #playlist table colgroup .column2 {
+        width: 828px;
+    }
+    #playlist table colgroup .column3 {
+        width: 500px;
+    }
+    #playlist table colgroup .column4 {
+        width: 200px;
+    }
+    #playlist table colgroup .column5 {
+        width: 0px;
+    }
+}

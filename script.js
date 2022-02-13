@@ -72,7 +72,7 @@ const audio = document.getElementById("player");
 const songList = [
     {
         title: "86 EIGHTY-SIX Ending- Avid",
-        artist: "SawanoHiroyuki[nZk]:mizuki",
+        artist: "SawanoHiroyuki[nZk]  mizuki",
         duration: 263,
         album: {
             title: "86 EIGHTY-SIX Ending- Avid",
@@ -503,7 +503,7 @@ function buildPlaylist() {
     songList.forEach((song, index) => {
         html += `
 <tr data-index="${index}">
-  <td class="play-pause"><img src="${song.album.art.square}"></td>
+  <td class="play-pause"></td>
   <td>${song.title}</td>
   <td>${song.artist}</td>
   <td>${song.album.title}</td>
