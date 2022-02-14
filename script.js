@@ -122,6 +122,19 @@ const songList = [
         },
         url: `./songs/Clannad__Ana.mp3`,
     },
+    {
+        title: "Ergo Proxy insert song - Centzontotochtin",
+        artist: "Ike Yoshihiro",
+        duration: 182,
+        album: {
+            title: "Ergo Proxy insert song - Centzontotochtin",
+            art: {
+                square: "./songs_img_round/ergo-proxy-anime.jpg",
+                wide: "./songs_img_wide/ergo_shotgun00.jpg",
+            },
+        },
+        url: `./songs/Ergo Proxy - centzon totochtin.mp3`,
+    },
 ];
 
 /**
