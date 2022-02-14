@@ -135,6 +135,32 @@ const songList = [
         },
         url: `./songs/Ergo Proxy - centzon totochtin.mp3`,
     },
+    {
+        title: "Fatestay Night insert song - Pride of the Warrior King",
+        artist: "Kenji Kawai",
+        duration: 144,
+        album: {
+            title: "Fatestay Night insert song - Pride of the Warrior King",
+            art: {
+                square: "./songs_img_round/Fatestay Night - Pride of the Warrior King round.jpg",
+                wide: "./songs_img_wide/Fatestay Night - Pride of the Warrior King wide.jpg",
+            },
+        },
+        url: `./songs//Fatestay Night - Pride of the Warrior King.mp3`,
+    },
+    {
+        title: "Heaven's lost property insert - Unknown Song",
+        artist: "Unknown",
+        duration: 487,
+        album: {
+            title: "Heaven's lost property insert - Unknown Song",
+            art: {
+                square: "./songs_img_round/b5-heavenslost-b.jpg",
+                wide: "./songs_img_wide/sora no otoshimono.jpg",
+            },
+        },
+        url: `./songs/Heaven's lost property Ost - Unknown Song Full - YouTube.mp3`,
+    },
 ];
 
 /**
@@ -516,7 +542,7 @@ function buildPlaylist() {
     songList.forEach((song, index) => {
         html += `
 <tr data-index="${index}">
-  <td class="play-pause"></td>
+  <td class="play-pause"><p></p></td>
   <td>${song.title}</td>
   <td>${song.artist}</td>
   <td>${song.album.title}</td>

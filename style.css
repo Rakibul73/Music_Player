@@ -94,7 +94,7 @@ body {
 }
 #playlist table th,
 #playlist table td {
-  padding: 10px 1%;
+  padding: 10px 3%;
   vertical-align: middle;
   text-align: left;
 }
@@ -144,9 +144,9 @@ body {
 #playlist table tr td.play-pause:before, #playlist table tr td.play-pause:after {
   visibility: hidden;
 }
-#playlist table tr td.play-pause img {
-  height: 40px;
-  width: 40px;
+#playlist table tr td.play-pause p {
+  height: 60px;
+  width: 5px;
 }
 #playlist table tr td:nth-child(2) {
   color: #F3F3F1;
@@ -299,6 +299,8 @@ body {
   width: 10vw;
   margin: 0 1vw;
 }
+
+
 
 
 
