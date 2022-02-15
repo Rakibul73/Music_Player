@@ -161,6 +161,123 @@ const songList = [
         },
         url: `./songs/Heaven's lost property Ost - Unknown Song Full - YouTube.mp3`,
     },
+    {
+        title: "k-project Ending OST - Tsumetai heya, Hitori",
+        artist: "Komatsu Mikako",
+        duration: 235,
+        album: {
+            title: "k-project Ending OST - Tsumetai heya, Hitori",
+            art: {
+                square: "./songs_img_round/k-project-round.jpg",
+                wide: "./songs_img_wide/k-project-wide.jpg",
+            },
+        },
+        url: `./songs/k project ending song - Tsumetai Heya, Hitori.mp3`,
+    },
+    {
+        title: "The Garden of Sinners Ending OST - Oblivious",
+        artist: "Kalafina",
+        duration: 263,
+        album: {
+            title: "The Garden of Sinners Ending OST - Oblivious",
+            art: {
+                square: "./songs_img_round/round_kara_no_kyoukai.jpg",
+                wide: "./songs_img_wide/Kara-no-Kyoukai-Garden-of-Sinners-wideorder.jpg",
+            },
+        },
+        url: `./songs/The Garden of Sinners Ending OST - Oblivious.mp3`,
+    },
+    {
+        title: "Nagi no Asukara Ending OST - Terrarium",
+        artist: "Nagi Yanagi",
+        duration: 298,
+        album: {
+            title: "Nagi no Asukara Ending OST - Terrarium",
+            art: {
+                square: "./songs_img_round/nagi no asukara round.jpg",
+                wide: "./songs_img_wide/nagi no asukara wide.jpg",
+            },
+        },
+        url: `./songs/Nagi_no_Asukara_-_Aqua_Terrarium.mp3`,
+    },
+    {
+        title: "Taisho Otome Fairy Tale Insert OST - Koi no Uta",
+        artist: "Ayasa Ito",
+        duration: 278,
+        album: {
+            title: "Taisho Otome Fairy Tale Insert OST - Koi no Uta",
+            art: {
+                square: "./songs_img_round/taiso ototme fairy tail round.jpg",
+                wide: "./songs_img_wide/taiso ototme fairy tail wide.jpg",
+            },
+        },
+        url: `./songs/Taisho Otome Fairy Tale - Koi no Uta_Shiratori Kotori (CV_Ayasa Ito).mp3`,
+    },
+    {
+        title: "True Tears Insert OST - Kagami, Kimi wo Utsuhite",
+        artist: "Unknown",
+        duration: 176,
+        album: {
+            title: "True Tears Insert OST - Kagami, Kimi wo Utsuhite",
+            art: {
+                square: "./songs_img_round/True Tears -round.jpg",
+                wide: "./songs_img_wide/true_tears.jpgowide.jpg",
+            },
+        },
+        url: `./songs/True Tears - Kagami, Kimi wo Utsuhite.mp3`,
+    },
+    {
+        title: "White Album 2 Opening OST - Todokanai Koi '13",
+        artist: "Rena Uehara",
+        duration: 305,
+        album: {
+            title: "White Album 2 Opening OST - Todokanai Koi '13",
+            art: {
+                square: "./songs_img_round/White Album 2 round.jpg",
+                wide: "./songs_img_wide/White Album 2  wide.jpg",
+            },
+        },
+        url: `./songs/White Album 2 op Todokanai Koi 13.mp3`,
+    },
+    {
+        title: "WorldEnd Insert OST- Scarborough Fair",
+        artist: "Yamada Tamaru",
+        duration: 151,
+        album: {
+            title: "WorldEnd Insert OST- Scarborough Fair",
+            art: {
+                square: "./songs_img_round/Sukasuka round.jpg",
+                wide: "./songs_img_wide/World-End-Season-2-1024x5 wide.jpg",
+            },
+        },
+        url: `./songs/WorldEnd  - Scarborough Fair.mp3`,
+    },
+    {
+        title: "The Promised Neverland Insert OST- Isabella's Lullaby",
+        artist: "Takahiro Obata",
+        duration: 302,
+        album: {
+            title: "The Promised Neverland Insert OST- Isabella's Lullaby",
+            art: {
+                square: "./songs_img_round/Yakusoku no Neverland round.jpg",
+                wide: "./songs_img_wide/animes-like-yakusoku-no-neverlan wide.jpg",
+            },
+        },
+        url: `./songs/YAKUSOKU NO NEVERLAND  OST Isabella's Lullaby.mp3`,
+    },
+    {
+        title: "Yosuga no sora Insert OSt - Toui Sora He",
+        artist: "Manack and Bruno-Wen Li",
+        duration: 211,
+        album: {
+            title: "Yosuga no sora Insert OSt - Toui Sora He",
+            art: {
+                square: "./songs_img_round/yosugo no sora round.jpg",
+                wide: "./songs_img_wide/yosugo no sora wide.jpg",
+            },
+        },
+        url: `./songs/Yosuga no sora BSO - Toui sora he - YouTube.mp3`,
+    },
 ];
 
 /**
