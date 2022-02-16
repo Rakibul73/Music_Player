@@ -151,7 +151,7 @@ const songList = [
     {
         title: "Heaven's lost property insert - Unknown Song",
         artist: "Unknown",
-        duration: 487,
+        duration: 118,
         album: {
             title: "Heaven's lost property insert - Unknown Song",
             art: {
@@ -159,7 +159,7 @@ const songList = [
                 wide: "./songs_img_wide/sora no otoshimono.jpg",
             },
         },
-        url: `./songs/Heaven's lost property Ost - Unknown Song Full - YouTube.mp3`,
+        url: `./songs/Heaven's Lost Property _ Sora no Otoshimono - An Angel's Tears (Unreleased BGM).mp3`,
     },
     {
         title: "k-project Ending OST - Tsumetai heya, Hitori",
